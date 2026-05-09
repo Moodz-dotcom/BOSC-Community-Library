@@ -10,3 +10,4 @@ MIT
 
 ## Contributing
 See `CONTRIBUTING.md`
+* Updated documentation
