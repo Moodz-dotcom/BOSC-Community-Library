@@ -1,16 +1,14 @@
-# BUG #1: Off-by-one in frequency calculation
-def calculate_center_frequency(start_freq, end_freq):
-    # Bug: uses +1 instead of division by 2
-    return (start_freq + end_freq) + 1  # WRONG
+import logging
 
-# BUG #2: No null handling
-def validate_bandwidth(bandwidth):
-    return bandwidth > 0  # CRASHES if bandwidth is None
+logging.basicConfig(level=logging.INFO)
 
 def calculate_center_frequency(start_freq, end_freq):
+    logging.info(f"Calculating center frequency between {start_freq} and {end_freq} MHz")
     return (start_freq + end_freq) / 2
 
 def validate_bandwidth(bandwidth):
     if bandwidth is None:
+        logging.warning("bandwidth parameter is None")
         return False
+    logging.debug(f"Validating bandwidth: {bandwidth} MHz")
     return bandwidth > 0
