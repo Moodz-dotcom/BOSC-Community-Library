@@ -38,3 +38,8 @@ If a hostile fork appears (e.g., a company removes attribution or adds malicious
 Most importantly — **do not panic.** Forks are legally permitted. Only the bad ones (license violations, impersonation) need action. Healthy forks improve the ecosystem.
 
 *Word count: 521*
+
+---
+**Student Name:** [KIGOZI JOSHUA KIMULI..(23/BCC/BU/R/1005)]
+**GitHub:** Moodz-dotcom
+**Date:** 12 May 2026

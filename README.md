@@ -12,3 +12,6 @@ MIT
 See `CONTRIBUTING.md`
 * Updated documentation
 # Tiny update
+
+## Maintainer
+[KIGOZI JOSHUA KIMULI] (@Moodz-dotcom)
