@@ -19,3 +19,4 @@ This mirrors Kubernetes' success. The BOSC Foundation (fiscal sponsor) holds the
 1. Apply for fiscal sponsorship (e.g., Open Collective, Software Freedom Conservancy)
 2. Recruit 3 initial corporate members at $10k/year each
 3. Launch paid support program through partner vendors
+# Final touch
