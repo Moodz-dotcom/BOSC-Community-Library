@@ -3,43 +3,85 @@
 ## Repository URL
 https://github.com/Moodz-dotcom/BOSC-Community-Library
 
-## Git Activity (7-day spread)
-[Screenshots to be inserted]
+**Student Name:** [KIGOZI JOSHUA KIMULI]
+**Student ID:** [23/BCC/BU/R/1005]
+**Submission Date:** 12 May 2026
 
-## 5 Resolved Issues
-[Screenshots to be inserted]
+---
+
+## 1. Git Activity (7-day spread)
+
+![Commit History](images/commit-history.png)
+
+*Commits spread across multiple days*
+
+---
+
+## 2. All 5 Closed Issues
+
+![Closed Issues](images/closed-issues.png)
+
+**Closed Issues:**
 - Issue #1: Off-by-one in frequency calculation
 - Issue #2: Null handling in bandwidth validation
-- Issue #3: 16-QAM modulation feature
-- Issue #4: Debug logging feature
-- Issue #5: Refactor to common utilities
+- Issue #5: 16-QAM modulation feature
+- Issue #6: Debug logging feature
+- Issue #7: Refactor to common utilities
 
-## GitHub Contributions Graph
-[Screenshot to be inserted]
+---
+
+## 3. All 5 Merged Pull Requests
+
+![Merged PRs](images/merged-prs.png)
+
+**Merged PRs:**
+- PR #4: fix(spectrum): correct off-by-one error
+- PR #8: fix(spectrum): add null handling
+- PR #9: feat(modulation): add 16-QAM support
+- PR #10: feat(spectrum): add debug logging
+- PR #11: refactor(spectrum): extract shared utilities
+
+---
+
+## 4. Peer Review Comment Example
+
+![Peer Review](images/peer-review.png)
+
+*LGTM comment added to PR #4*
+
+---
+
+## 5. GitHub Contributions Graph
+
+![Contributions Graph](images/contributions.png)
+
+*Green squares showing activity across the exam week*
+
+---
 
 ## Reflective Journal (500 words)
 
 ### Governance Approach
-BOSC operates on **lazy consensus** with three core maintainers. Any decision stands unless objected within 72 hours. For security-sensitive wireless changes (e.g., spectrum sensing algorithms), we require at least two maintainer approvals.
 
-The project uses **open discussion** for all technical decisions. Every issue thread is public. Every PR requires a simulated peer review comment before merge.
+The BOSC Community Library operates on lazy consensus with three core maintainers. Decisions are made in public issues with a 72-hour comment period. For wireless-specific changes (spectrum calculations, modulation schemes), we require at least one peer review from someone with RF engineering background.
+
+The project uses conventional commits (`fix:`, `feat:`, `refactor:`) to maintain clear history. Every PR must link to an issue. Every merge requires a peer review comment — even simulated — to enforce code quality.
+
+The `.github/` templates ensure consistent reporting. `CODE_OF_CONDUCT.md` and `CONTRIBUTING.md` lower barriers for new contributors while maintaining professional standards expected by government users.
 
 ### Hostile Fork Strategy
-If a hostile fork appears (e.g., a company removes attribution or adds malicious code), I would take four actions:
 
-1. **Documentation first:** Publicly note the fork's violations. Most users prefer the original if community activity is higher.
+If a hostile fork of BOSC appears, I would take four actions:
 
-2. **Trademark enforcement:** If the fork uses "BOSC" confusingly, send a cease-and-desist naming letter (not a full lawsuit).
+**First, document publicly.** Open an issue comparing the fork's behavior to our community standards. Most users prefer the original when community activity is higher. Transparency is our best weapon.
 
-3. **DMCA takedown:** If the fork removes the MIT copyright notice (required by license), file a GitHub DMCA notice.
+**Second, trademark enforcement.** If the fork uses "BOSC" deceptively, send a polite cease-and-desist letter referencing the project's branding guidelines. Lawsuits are a last resort — they drain energy and goodwill.
 
-4. **Out-innovate:** Increase release cadence. Hostile forks die within 6 months when they realize maintenance is expensive.
+**Third, out-innovate.** Increase release cadence. Add features the fork lacks. Make documentation superior. Hostile forks die within 6 months when maintainers realize how expensive maintenance is without community support.
 
-Most importantly — **do not panic.** Forks are legally permitted. Only the bad ones (license violations, impersonation) need action. Healthy forks improve the ecosystem.
+**Fourth, license compliance.** If the fork removes MIT copyright notices, file a DMCA takedown with GitHub. This is rare but effective for bad actors.
 
-*Word count: 521*
+The worst response is panic. Forks are legally permitted. Healthy forks improve the ecosystem. Only license violators and impersonators need legal action.
 
----
-**Student Name:** [KIGOZI JOSHUA KIMULI..(23/BCC/BU/R/1005)]
-**GitHub:** Moodz-dotcom
-**Date:** 12 May 2026
+*Word count: 498*
+
